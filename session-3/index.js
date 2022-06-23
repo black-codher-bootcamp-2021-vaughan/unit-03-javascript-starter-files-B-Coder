@@ -30,7 +30,8 @@
 function futureAge(name, age) {
         const ageIn5years = age + 5;
          return "Hi I'm" + name + " ! " + "and I will be" + ageIn5years + "years old in five years" 
-    
-console.log(futureAge('Stephanie', 45));
 }
+  
+console.log(futureAge('Stephanie', 45));
+
     
