@@ -15,14 +15,22 @@
 // console.log(about)
 // console.log(title)
 
-function sayHey() { 
-    console.log("Hey!");
-}
+// function sayHey() { 
+//     console.log("Hey!");
+// }
 
-sayHey();
+// sayHey();
 
-function conversation() {
-sayHey();
-console.log("How are you?");
-console.log("Goodbye");
+// function conversation() {
+// sayHey();
+// console.log("How are you?");
+// console.log("Goodbye");
+// }
+//MULTIPLE PARAMETERS
+function futureAge(name, age) {
+        const ageIn5years = age + 5;
+         return "Hi I'm" + name + " ! " + "and I will be" + ageIn5years + "years old in five years" 
+    
+console.log(futureAge('Stephanie', 45));
 }
+    
